@@ -9801,7 +9801,7 @@ h6,
 }
 
 .navbar-light {
-  /* display: none; */
+  display: none;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -9948,6 +9948,18 @@ h6,
   opacity: 0;
   transition: .5s;
 }
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.portfolio-item img {
+  height: 200px; /* Adjust the height as per your requirement */
+  object-fit: cover; /* Ensures the image covers the space without distorting */
+}
+
+
 
 .portfolio-item:hover .portfolio-btn {
   opacity: 1;
